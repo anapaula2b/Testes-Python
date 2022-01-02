@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui 
 import time as t
 
 
@@ -7,7 +7,7 @@ pyautogui.write('notepad')
 pyautogui.hotkey('enter')
 t.sleep(2)
 
-frase = 'vc foi hackeado'
+frase = 'voce foi hackeado'
 
 
 for i in range(len(frase)):
