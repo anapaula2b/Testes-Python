@@ -1,4 +1,3 @@
-for i in range(1,51):
-    teste = i%2
-    if teste == 0:
-        print(i)
+for i in range(2,51, 2):
+        print(i, end=' ')
+print('Fim')
